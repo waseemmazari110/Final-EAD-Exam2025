@@ -18,3 +18,28 @@
   gap: 20px;
 }
 
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #555;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+
+.light.active {
+  opacity: 1;
+  box-shadow: 0 0 20px white;
+}
+
+.light.red.active {
+  background: red;
+}
+
+.light.yellow.active {
+  background: yellow;
+}
+
+.light.green.active {
+  background: green;
+}

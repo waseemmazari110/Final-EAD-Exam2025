@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import "./Light.css";
+import "./Light.css";
 
 const TrafficLightSimulator1 = () => {
   const [activeLight, setActiveLight] = useState("red");
